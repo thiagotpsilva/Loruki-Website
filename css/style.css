@@ -234,6 +234,11 @@ img {
   grid-column: 2 / span 2;
 }
 
+.footer .grid > *:nth-child(4) {
+  grid-column: 1 / span 3;
+  justify-self: center;
+}
+
 .developer a {
   background-color: var(--primary-color);
   padding: 1rem;
@@ -331,6 +336,10 @@ img {
   }
 
   .footer .grid > *:nth-child(3) {
+    text-align: center;
+    grid-column: 1;
+  }
+  .footer .grid > *:nth-child(4) {
     text-align: center;
     grid-column: 1;
   }
