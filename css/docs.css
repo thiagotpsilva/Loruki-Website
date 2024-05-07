@@ -1,0 +1,33 @@
+/* DOCS HEAD */
+.docs-head img {
+  width: 20rem;
+  justify-self: flex-end;
+}
+
+/* DOCS MAIN */
+.docs-main h3 {
+  margin: 2rem 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+}
+
+.docs-main nav li {
+  font-size: 1.7rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #ccc;
+}
+
+.docs-main nav li a:hover {
+  font-weight: bold;
+}
+
+.code,
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
