@@ -55,6 +55,10 @@ img {
   max-width: 100%;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
 /* NAVBAR */
 .navbar {
   background-color: var(--primary-color);
